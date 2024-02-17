@@ -22,3 +22,5 @@ CREATE TABLE country_wise_latest (
 );
 
 select * from country_wise_latest;
+
+create view vwCovid as select * from country_wise_latest
